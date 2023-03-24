@@ -1,56 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/blog.css" />
 
     <! -- Favicons -->
-        <link rel="icon" type="image/png" href="./assets/icons/vLogo.png">
+    <link rel="icon" type="image/png" href="./assets/icons/vLogo.png" />
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-        <title>Vironsard Vang</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Vironsard Vang</title>
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <h1>Vang Vironsard</h1>
-        <ul class="navigation">
-            <li><a href="index.html" class="nav-link">អំពីខ្ញុំ</a></li>
-            <li><a href="#skills" class="nav-link">ជំនាញ</a></li>
-            <li><a href="#projects" class="nav-link">គម្រោង</a></li>
-            <li><a href="blog.html" class="nav-link">Blog</a></li>
-            <li><a href="#contact" class="nav-link">ទំនាក់ទំនង</a></li>
-        </ul>
-        <button class="burger-menu" id="burger-menu">
-            <ion-icon class="bars" name="menu-outline"></ion-icon>
-        </button>
+      <h1 onclick="window.location.href='index.html'">Vang Vironsard</h1>
+      <ul class="navigation">
+        <li><a href="index.html" class="nav-link">អំពីខ្ញុំ</a></li>
+        <li><a href="#skills" class="nav-link">ជំនាញ</a></li>
+        <li><a href="#projects" class="nav-link">គម្រោង</a></li>
+        <li><a href="blog.html" class="nav-link">អត្តបទ</a></li>
+        <li><a href="#contact" class="nav-link">ទំនាក់ទំនង</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
     </nav>
 
-    <! --Social Media-->    
+    <!-- Blog Content -->
+    <div class="blog_header">
+      <div class="header">
+        <h1>អត្ថបទ</h1>
+        <h4>
+          អត្ថបទទាំងអស់
+          <hr style="width: 70%; text-align: right; margin-left: 100px; color:#3D4451;" />
+        </h4>
+      </div>
 
-    <div class="socials">
-        <a href="#" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy" class="socicon"></a>
-        <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy" class="socicon"></a>
-        <a href="#" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon"></a>
-        <a href="#" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" loading="lazy" class="socicon"></a>
+      <!-- blog content -->
+
+      <section class="blogs" id="blogs">
+        <div class="blog-card1">
+          <table style="margin-top: 2%">
+            <tr>
+              <td>
+                <img
+                  class="img_card1"
+                  src="./assets/images/blog_content1.png"
+                  alt="blog_content1"
+                  loading="lazy"
+                />
+              </td>
+              <td>
+                <div class="blog-content1">
+                  <h3 class="blog-title"><a href="content1.html">ចង់ក្លាយខ្លួនជា Front-End Web Development អាចអាន Blog នេះបាន</a> </h3>
+                  <p style="color: #263D95; margin-top: 3px;">
+                    អត្តបទដោយ៖​ ISTAD
+                  </p>
+                </div>
+                <button
+                  id="btn_readmore1"
+                  type="button"
+                  onclick="window.location.href='content1.html'"
+                >
+                  អានបន្ថែម
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="blog-card1">
+          <table style="margin-top: 2%">
+            <tr>
+              <td>
+                <img
+                  class="img_card1"
+                  src="./assets/images/blog_content2.png"
+                  alt="blog_content1"
+                  loading="lazy"
+                />
+              </td>
+              <td>
+                <div class="blog-content1">
+                  <h3 class="blog-title"><a href="content1.html">តើអ្វីទៅជា WEB 3.0?</a> </h3>
+                  <p style="color: #263D95; margin-top: 3px;">
+                    អត្តបទដោយ៖​ ISTAD
+                  </p>
+                </div>
+                <button
+                  id="btn_readmore1"
+                  type="button"
+                  onclick="window.location.href='content2.html'"
+                >
+                  អានបន្ថែម
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+
+
+        <!-- <div class="blog-card1">
+          <table style="margin-top: 2%">
+            <tr>
+              <td>
+                <img
+                  class="img_card1"
+                  src="./assets/images/blog_content3.png"
+                  alt="blog_content1"
+                  loading="lazy"
+                />
+              </td>
+              <td>
+                <div class="blog-content1">
+                  <h3 class="blog-title"><a href="content1.html">ស្វែងយល់អំពី Smart Contract</a> </h3>
+                  <p style="color: #263D95; margin-top: 3px;">
+                    អត្តបទដោយ៖​ ISTAD
+                  </p>
+                </div>
+                <button
+                  id="btn_readmore1"
+                  type="button"
+                  onclick="window.location.href='content3.html'"
+                >
+                  អានបន្ថែម
+                </button>
+              </td>
+            </tr>
+          </table>
+        </div> -->
+      </section>
+
+      <! --Social Media-->
+
+      <div class="socials">
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-twitter-circled.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-linkedin-circled.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assets/icons/icons8-github.gif"
+            alt="Github"
+            loading="lazy"
+            class="socicon"
+        /></a>
 
         <i class="scroll-up" id="scroll-up">
-            <img src="assets/icons/icons8-scroll-up.gif" class="socicon up-arrow" alt="scroll-up">
+          <img
+            src="assets/icons/icons8-scroll-up.gif"
+            class="socicon up-arrow"
+            alt="scroll-up"
+          />
         </i>
-    
+      </div>
     </div>
     <!-- Footer -->
     <footer>
       <p class="copy">&copy; Copyright 2023</p>
       <p class="copy">Built by Vang Vironsard</p>
-  </footer>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script src="./js/script.js"></script>
-
-</body>
-
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>

@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Khmer&family=Noto+Sans+Khmer&display=swap');
 *{
     font-family: "Roboto", sans-serf, "Noto Sans Khmer", sans-serf;;
+    
 }
 :root {
     --font-family: "Roboto", sans-serf, "Noto Sans Khmer", sans-serf;
@@ -65,6 +66,7 @@ nav {
 
 nav h1 {
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 nav a {
@@ -199,7 +201,7 @@ nav ul li {
 }
 
 .project-container p {
-    padding: 0.4rem;
+    padding: 0.4rem;    
 }
 
 .project-title {
@@ -412,3 +414,210 @@ footer {
     }
 
 }
+
+/* blog style */
+
+  
+  .blog_header{
+    padding: 20px;
+    
+  }
+  
+  .header > h1{
+    text-align: center;
+  }
+  
+  .header > h4{
+    margin-left: 10%;
+  }
+
+
+  /* blog_content_card1 style */
+
+.blog_content_card1{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 15%;
+    
+    
+}
+
+
+.img_card1{
+    width: 500px;
+    height: 200px;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+ 
+.text_card1{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#card_btn1 {
+    background-color: #3D4451;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-left: 1%;
+}
+  
+
+ /* blog_content_card1 style */
+
+.blog_content_card1{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 15%;
+    
+    
+}
+
+
+.img_card1{
+    width: 500px;
+    height: 200px;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+ 
+.text_card1{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#card_btn1 {
+    background-color: #3D4451;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-left: 1%;
+}
+
+/* blog_content_card1 style */
+
+.blog_content_card1{
+    width: 50%;
+    margin-top: 3%;
+    margin-left: 15%;
+    
+    
+}
+
+
+.img_card1{
+    width: 500px;
+    height: 200px;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+ 
+.text_card1{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#card_btn1 {
+    background-color: #3D4451;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-left: 1%;
+}
+  
+
+
+ /* blog_content_card2 style */
+
+.blog_content_card2{
+    width: 50%;
+    margin-top: 3%;
+    
+}
+
+
+.img_card2{
+    width: 500px;
+    height: 200px;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+ 
+.text_card2{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#card_btn2 {
+    background-color: #3D4451;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    margin-left: 1%;
+}
+
+
+/* blog_content_card3 style */
+
+.blog_content_card3{
+    width: 60%;
+    margin-top: 7%;
+}
+
+
+.img_card3{
+    width: 500px;
+    height: 200px;
+    padding-top: 1%;
+    padding-left: 1%;
+  }
+ 
+.text_card3{
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+#card_btn3 {
+    background-color: #3D4451;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 7px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    
+}
+  

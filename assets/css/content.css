@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Khmer&family=Noto+Sans+Khmer&display=swap');
+*{
+    font-family: "Roboto", sans-serf, "Noto Sans Khmer", sans-serf;;
+    
+}
+:root {
+    --font-family: "Roboto", sans-serf, "Noto Sans Khmer", sans-serf;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #fcfcfc;
+    --primary-color: #4756df;
+    --secondary-color: #ff7235;
+    --primary-shadow: #8b8eaf;
+    --secondary-shadow: #a17a69;
+    --bottom-margin: 0.5rem;
+    --bottom-margin-2: 1rem;
+    --line-height: 1.7rem;
+    --transition: 0.3s;
+}
+
+/* Variable end */
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*css resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+a:hover {
+    color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+nav a {
+    color: var(--transition);
+}
+
+nav a:hover {
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
+
+.burger-menu {
+    color: var(--primary-color);
+    font-size: 2rem;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+}
+
+.socicon {
+    width: 2rem;
+    height: 2rem;
+}
+
+footer {
+
+    background-color: var(--bg-color);
+    padding: 1.25rem;
+    text-align: center;
+    margin: 2rem 0 0;
+}
+
+.scroll-up {
+    position: fixed;
+    right: 0.5%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.up-arrow {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media screen and (max-width: 720px) {
+    nav {
+        padding: 1.5rem 1rem;
+    }
+
+
+    nav ul {
+        position: fixed;
+        background-color: var(--bg-color);
+        flex-direction: column;
+        top: 86px;
+        left: 10%;
+        width: 80%;
+        text-align: center;
+        transform: translateX(120%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li {
+        margin: 8px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    nav ul.show {
+        transform: translateX(0);
+    }
+
+    /* .blog-img{
+        width: 50px;
+        height: 30px;
+        
+    } */
+
+
+}
+
+@media screen and (max-width: 420px) {
+  
+    
+
+}
+
+
+/* content section title */
+
+#blog-content{
+    background-color: #FFFFFF;
+    color: #3D4451;
+    width: 60%;
+    margin-top: 3%;
+    margin-right: 20%;
+    margin-left: 20%;
+    
+}
+.blog-container{
+    text-align: justify;
+}
+
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #253C95;
+}
+
+.sub-title{
+    padding-top: 5px;
+}
+
+.blog-img{
+    margin-top: 1%;
+    width: 700px;
+    height: 350px;
+}
+
+
