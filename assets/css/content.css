@@ -168,12 +168,6 @@ footer {
 
 }
 
-@media screen and (max-width: 420px) {
-  
-    
-
-}
-
 
 /* content section title */
 
@@ -183,8 +177,7 @@ footer {
     width: 60%;
     margin-top: 3%;
     margin-right: 20%;
-    margin-left: 20%;
-    
+    margin: auto;
 }
 .blog-container{
     text-align: justify;
@@ -201,10 +194,22 @@ footer {
     padding-top: 5px;
 }
 
-.blog-img{
+/* Web 3 Cover Image*/
+.web3-cover-img{
     margin-top: 1%;
-    width: 700px;
-    height: 350px;
+    width: 100%;
+    object-fit: cover;
 }
+
+.img-component-tag{
+    width: 100%;
+    height: auto;
+}
+
+.img-component{
+    margin: auto;
+    display: table-cell;
+}
+
 
 
