@@ -65,7 +65,7 @@ nav {
 }
 
 nav h1 {
-    color: var(--primary-color);
+    color: #3D4451;
     cursor: pointer;
 }
 
@@ -114,10 +114,11 @@ nav ul li {
 }
 
 .bio {
-    width: 25rem;
+    width: 38rem;
     padding: 0.625rem;
     border-radius: 6px;
     box-shadow: 0px 2px 15px 2px var(--primary-color);
+    text-align: justify;
 }
 
 .bio h1 {
@@ -143,6 +144,7 @@ nav ul li {
     line-height: var(--line-height);
     padding: 0.4rem;
 }
+
 
 .skills {
     max-width: 68.75rem;
@@ -189,7 +191,7 @@ nav ul li {
     justify-content: center;
 }
 
-.project-title {
+.projects-title {
     text-align: center;
     margin-bottom: 1rem;
 }
@@ -234,13 +236,13 @@ nav ul li {
     margin: 0 auto;
     padding: 0.938rem;
     border-radius: 5px;
-    box-shadow: 0 3px 10px var(--secondary-shadow);
+    box-shadow: 0 3px 10px #3D4451;
 }
 
 .contact-form-container label {
     line-height: 2.7rem;
     font-weight: var(--bold-font);
-    color: var(--primary-color);
+    color: #3D4451;
 }
 
 .contact-form-container textarea {
@@ -254,14 +256,14 @@ nav ul li {
     padding-bottom: 10px;
     border-radius: 5px;
     border: none;
-    border: 2px outset var(--primary-color);
+    border: 2px outset #3D4451;
     font-size: 0.875rem;
     outline: none;
 }
 
 .input-field::placeholder {
     padding: 0.5rem;
-    color: var(--primary-color);
+    color: #3D4451;
 }
 
 .submit-btn {
@@ -269,7 +271,7 @@ nav ul li {
     padding: 10px;
     margin: 10px 0;
     background-color: #fff;
-    border: 2px solid var(--primary-color);
+    border: 2px solid #3D4451;
     border-radius: 5px;
     font-size: 1rem;
     font-weight: var(--bold-font);
